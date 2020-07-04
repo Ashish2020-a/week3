@@ -1,0 +1,118 @@
+body{
+    font-size: 16px;
+
+
+    
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+} 
+.navbar{
+    padding-top: 25px;
+
+}
+.navbar-brand h1{
+font-family: 'lora',sans-serif;
+color: #557c3e;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+
+}
+.navbar-band a:hover, .navbar-band a:focus{
+    text-decoration: none;
+}
+.navbar-band{
+
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+#nav-list {
+    margin-top:10px;
+    
+}
+#nav-list a{
+color:#951c49;
+text-align: center;
+}
+#nav-list a:hover{
+    background: #e7e7e7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/*header closed*/
+.main-content> h1{
+    text-align: center;
+}
+.chicken{
+    border: 3px solid black;
+    background-color:gray;
+    margin-bottom: 15px;
+}
+.chicken>h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.main-content{
+    width: 95%;
+    margin-left: 25px;
+
+}
+
+.beef{
+    border: 3px solid black;
+    background-color:gray;
+    margin-bottom: 15px;
+}
+.beef>h1 {
+    text-align: center;
+    color: yellow;
+}
+
+.sushi{
+    border: 3px solid black;
+    background-color:gray;
+}
+.sushi>h1 {
+    text-align: center;
+    color: yellow;
+}
+
+
+.main{
+    
+}
+
+
+@media(max-width: 767px){
+    .navbar-brand{padding-top: 10px; height:80px; }
+    .navbar-brand h1{padding-top: 10px;font-size: 5vw;}
+    .collapasable-nav a {
+        font-size: 1.2em;}
+    
+    
+   
+    
+
+   
+
+}
